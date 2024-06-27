@@ -4,34 +4,307 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RestaurantName</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleMenu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li class="logo"><a href="index.html">RestaurantLogo</a></li>
+                <li class="logo"><a href="index.html">Home</a></li>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="menuAndDelivary.html">Menu and Delivery</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li class ="cart"><a href="shoppingCart.html">ShoppingCart</a></li>
+                <li class ="cart"><a href="shoppingCart.html"><i class="fas fa-shopping-cart "></i> <span style="color: red;">0</span></a></li>
             </ul>
         </nav>
     </header>
 
-    <section>
+    <main>
 
-    </section>
+        <section class="wrapper">
+            <i id="leftArrow" class="fa-solid fa-circle-chevron-left fa-3x slideButton" style="color: #000000;"></i>
+            <ul class="carousel">
+                <li class="card card1">
+                    <h4>Salad</h4>
+                    <h6>See on the menu<i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></h6>
+                </li>
 
-    <section>
+                <li class="card card2">
+                    <h4>Pizza</h4>
+                    <h6>See on the menu<i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i><br></h6>
+                </li>
 
-    </section>
+                <li class="card card3">
+                    <h4>Pasta</h4>
+                    <h6>See on the menu<i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></h6>
+                </li>
 
-    <section>
+                <li class="card card1">
+                    <h4>Salad</h4>
+                    <h6>See on the menu<i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></h6>
+                </li>
 
-    </section>
+                <li class="card card2">
+                    <h4>Pizza</h4>
+                    <h6>See on the menu<i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i><br></h6>
+                </li>
+
+                <li class="card card3">
+                    <h4>Pasta</h4>
+                    <h6>See on the menu<i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></h6>
+                </li>
+            </ul>
+            <i id="rightArrow" class="fa-solid fa-circle-chevron-right fa-3x slideButton" style="color: #000000;"></i>
+        </section>
+
+        <section class="saladHeader">
+            <h2>Salad</h2>
+        </section>
+
+        <section class="saladWrapper">
+            <ul class="saladCarousel">
+                <li class="saladCard saladCard1">
+                    <figure>
+                        <img src="ImagesForRestaurant/greekSalad.webp" alt="restaurantWorker" style="width: 400px; height: 400px;"/>
+                    </figure> 
+                    <h4>Greek Salad</h4>
+                    <p>Ingredients:  sliced cucumbers, tomatoes, green bell pepper, red onion, olives, and feta cheese</p> 
+                    <section class="priceAndQuantity">
+                        <span class="price">Price: <b>31,99 &#8364;</b></span>
+                        <section>
+                            <button type="button"><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i> <span>+</span></button>
+                            <input type="text" min="0" value="0">
+                            <button type="button"><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i> <span>-</span></button>
+                        </section>
+                    </section>
+                </li>
+
+                <li class="saladCard saladCard2">
+                    <figure>
+                        <img src="ImagesForRestaurant/caesarSalad.webp" alt="restaurantWorker" style="width: 400px; height: 400px;"/>
+                    </figure> 
+                    <h4>Greek Salad</h4>
+                    <p>Ingredients:  sliced cucumbers, tomatoes, green bell pepper, red onion, olives, and feta cheese</p> 
+                    <section class="priceAndQuantity">
+                        <span class="price">Price: <b>31,99 &#8364;</b></span>
+                        <section>
+                            <button type="button"><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i> <span>+</span></button>
+                            <input type="text" min="0" value="0">
+                            <button type="button"><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i> <span>-</span></button>
+                        </section>
+                    </section> 
+                </li>
+
+                <li class="saladCard saladCard3">
+                    <figure>
+                        <img src="ImagesForRestaurant/capreseSalad.webp" alt="restaurantWorker" style="width: 400px; height: 400px;"/>
+                    </figure> 
+                    <h4>Greek Salad</h4>
+                    <p>Ingredients:  sliced cucumbers, tomatoes, green bell pepper, red onion, olives, and feta cheese</p> 
+                    <section class="priceAndQuantity">
+                        <span class="price">Price: <b>31,99 &#8364;</b></span>
+                        <section>
+                            <button type="button"><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i> <span>+</span></button>
+                            <input type="text" min="0" value="0">
+                            <button type="button"><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i> <span>-</span></button>
+                        </section>
+                    </section> 
+                </li>
+
+                <li class="saladCard saladCard1">
+                    <figure>
+                        <img src="ImagesForRestaurant/greekSalad.webp" alt="restaurantWorker" style="width: 400px; height: 400px;"/>
+                    </figure> 
+                    <h4>Greek Salad</h4>
+                    <p>Ingredients:  sliced cucumbers, tomatoes, green bell pepper, red onion, olives, and feta cheese</p> 
+                    <section class="priceAndQuantity">
+                        <span class="price">Price: <b>31,99 &#8364;</b></span>
+                        <section>
+                            <button type="button"><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i> <span>+</span></button>
+                            <input type="text" min="0" value="0">
+                            <button type="button"><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i> <span>-</span></button>
+                        </section>
+                    </section>
+                </li>
+
+                <li class="saladCard saladCard2">
+                    <figure>
+                        <img src="ImagesForRestaurant/caesarSalad.webp" alt="restaurantWorker" style="width: 400px; height: 400px;"/>
+                    </figure> 
+                    <h4>Greek Salad</h4>
+                    <p>Ingredients:  sliced cucumbers, tomatoes, green bell pepper, red onion, olives, and feta cheese</p> 
+                    <section class="priceAndQuantity">
+                        <span class="price">Price: <b>31,99 &#8364;</b></span>
+                        <section>
+                            <button type="button"><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i> <span>+</span></button>
+                            <input type="text" min="0" value="0">
+                            <button type="button"><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i> <span>-</span></button>
+                        </section>
+                    </section> 
+                </li>
+
+                <li class="saladCard saladCard3">
+                    <figure>
+                        <img src="ImagesForRestaurant/capreseSalad.webp" alt="restaurantWorker" style="width: 400px; height: 400px;"/>
+                    </figure> 
+                    <h4>Greek Salad</h4>
+                    <p>Ingredients:  sliced cucumbers, tomatoes, green bell pepper, red onion, olives, and feta cheese</p> 
+                    <section class="priceAndQuantity">
+                        <span class="price">Price: <b>31,99 &#8364;</b></span>
+                        <section>
+                            <button type="button"><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i> <span>+</span></button>
+                            <input type="text" min="0" value="0">
+                            <button type="button"><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i> <span>-</span></button>
+                        </section>
+                    </section> 
+                </li>
+            </ul>
+        </section>
+
+        <section class="saladHeader">
+            <h2>Pizza</h2>
+        </section>
+
+        <section class="saladWrapper">
+            <ul class="saladCarousel">
+                <li class="saladCard saladCard1">
+                    <figure>
+                        <img src="ImagesForRestaurant/greekSalad.webp" alt="restaurantWorker" style="width: 400px; height: 400px;"/>
+                    </figure> 
+                    <h4>Greek Salad</h4>
+                    <p>Ingredients:  sliced cucumbers, tomatoes, green bell pepper, red onion, olives, and feta cheese</p> 
+                    <section class="priceAndQuantity">
+                        <span class="price">Price: <b>31,99 &#8364;</b></span>
+                        <section>
+                            <button type="button"><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i> <span>+</span></button>
+                            <input type="text" min="0" value="0">
+                            <button type="button"><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i> <span>-</span></button>
+                        </section>
+                    </section>
+                </li>
+
+                <li class="saladCard saladCard2">
+                    <figure>
+                        <img src="ImagesForRestaurant/caesarSalad.webp" alt="restaurantWorker" style="width: 400px; height: 400px;"/>
+                    </figure> 
+                    <h4>Greek Salad</h4>
+                    <p>Ingredients:  sliced cucumbers, tomatoes, green bell pepper, red onion, olives, and feta cheese</p> 
+                    <section class="priceAndQuantity">
+                        <span class="price">Price: <b>31,99 &#8364;</b></span>
+                        <section>
+                            <button type="button"><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i> <span>+</span></button>
+                            <input type="text" min="0" value="0">
+                            <button type="button"><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i> <span>-</span></button>
+                        </section>
+                    </section> 
+                </li>
+
+                <li class="saladCard saladCard3">
+                    <figure>
+                        <img src="ImagesForRestaurant/capreseSalad.webp" alt="restaurantWorker" style="width: 400px; height: 400px;"/>
+                    </figure> 
+                    <h4>Greek Salad</h4>
+                    <p>Ingredients:  sliced cucumbers, tomatoes, green bell pepper, red onion, olives, and feta cheese</p> 
+                    <section class="priceAndQuantity">
+                        <span class="price">Price: <b>31,99 &#8364;</b></span>
+                        <section>
+                            <button type="button"><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i> <span>+</span></button>
+                            <input type="text" min="0" value="0">
+                            <button type="button"><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i> <span>-</span></button>
+                        </section>
+                    </section> 
+                </li>
+
+                <li class="saladCard saladCard1">
+                    <figure>
+                        <img src="ImagesForRestaurant/greekSalad.webp" alt="restaurantWorker" style="width: 400px; height: 400px;"/>
+                    </figure> 
+                    <h4>Greek Salad</h4>
+                    <p>Ingredients:  sliced cucumbers, tomatoes, green bell pepper, red onion, olives, and feta cheese</p> 
+                    <section class="priceAndQuantity">
+                        <span class="price">Price: <b>31,99 &#8364;</b></span>
+                        <section>
+                            <button type="button"><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i> <span>+</span></button>
+                            <input type="text" min="0" value="0">
+                            <button type="button"><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i> <span>-</span></button>
+                        </section>
+                    </section>
+                </li>
+
+                <li class="saladCard saladCard2">
+                    <figure>
+                        <img src="ImagesForRestaurant/caesarSalad.webp" alt="restaurantWorker" style="width: 400px; height: 400px;"/>
+                    </figure> 
+                    <h4>Greek Salad</h4>
+                    <p>Ingredients:  sliced cucumbers, tomatoes, green bell pepper, red onion, olives, and feta cheese</p> 
+                    <section class="priceAndQuantity">
+                        <span class="price">Price: <b>31,99 &#8364;</b></span>
+                        <section>
+                            <button type="button"><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i> <span>+</span></button>
+                            <input type="text" min="0" value="0">
+                            <button type="button"><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i> <span>-</span></button>
+                        </section>
+                    </section> 
+                </li>
+
+                <li class="saladCard saladCard3">
+                    <figure>
+                        <img src="ImagesForRestaurant/capreseSalad.webp" alt="restaurantWorker" style="width: 400px; height: 400px;"/>
+                    </figure> 
+                    <h4>Greek Salad</h4>
+                    <p>Ingredients:  sliced cucumbers, tomatoes, green bell pepper, red onion, olives, and feta cheese</p> 
+                    <section class="priceAndQuantity">
+                        <span class="price">Price: <b>31,99 &#8364;</b></span>
+                        <section>
+                            <button type="button"><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i> <span>+</span></button>
+                            <input type="text" min="0" value="0">
+                            <button type="button"><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i> <span>-</span></button>
+                        </section>
+                    </section> 
+                </li>
+            </ul>
+        </section>
+
+    </main>
 
     <footer>
+        <section class="openingInfo">
+            <h4>Opening hours</h4>
+             <h5>We are open:</h5> 
+             <p>Mon – Sat 17:00 – 00:00</p>
+             <h5>We are closed:</h5>
+             <p>Sunday</p>
+        </section>
+        <section>
+            <address class="media">
+                <h4>Our media</h4>
+                <ul class="mediaLogo">
+                    <li class="insta"><a href="#"><i class="fa-brands fa-instagram fa-2x" style="color: #ffffff;"></i></a></li>
+                    <li class="facebook"><a href="#"><i class="fa-brands fa-facebook fa-2x" style="color: #ffffff;"></i></a></li>
+                </ul>
+            </address>
+            <address class="restaurantAddress">
+                <h4>RestaurantLogo</h4>
+                <p><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i> <span>Adress: xxxxx</span></p>
+            </address>
+        </section>
+        <section class="navigationAndContact">
+            <h4>Navigation</h4>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menuAndDelivary.html">Menu and Delivery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class ="cart"><a href="shoppingCart.html">ShoppingCart</a></li>
+                </ul>
+            </nav>
+
+            <address class="phoneAndMail">
+                <a href="tel:0000000000"><i class="fa-solid fa-phone" style="color: #ffffff;"></i> <span>00000000<br></span></a>
+                <a href="mailto:recipient@example.com"><i class="fa-solid fa-envelope" style="color: #ffffff;"></i> <span>rest@gmail.com</span></a>
+            </address>
+        </section>
 
     </footer>
 </body>
