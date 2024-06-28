@@ -77,10 +77,11 @@ header nav ul .cart {
 header .openingHours {
     margin-top: 20px;
     width: 100%;
-    height: 600px;
+    height: 500px;
     display: grid;
     place-items: center;
     font-size: 25px;
+    
 }
 
 main {
@@ -94,6 +95,8 @@ main .aboutRestaurant {
     justify-content: center;
     height: 600px;
     width: 100%;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
 }
 
 main .restaurantDescription {
@@ -102,11 +105,13 @@ main .restaurantDescription {
     text-align: center;
     background-color: darkred;
     height: 600px;
+    border-right: 3px solid black;
 }
 
 main .restaurantDescription h2 {
-    margin-top: 50px;
     margin-bottom: 50px;
+    padding: 20px;
+    border-bottom: 3px solid black;
 }
 
 main .aboutRestaurant figure {
@@ -117,8 +122,7 @@ main .aboutRestaurant figure {
 main .seeMenu {
     width: 200px;
     height: 60px;
-    border: solid 1;
-    border-color: black;
+    border: 3px solid black;
     border-radius: 30px;
     background-color: black;
     margin-top: 300px;
@@ -131,13 +135,22 @@ main .ourTeam {
     display: flex;
     height: 500px;
     width: 100%;
+    border-bottom: 3px solid black;
 }
 
 main .ourTeam .ourTeamText {
-    padding: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
     background-color: darkgray;
     width: 600px;
     text-align: center;
+    border-right: 3px solid black;
+}
+
+main .ourTeam .ourTeamText h2 {
+    padding: 20px;
+    border-bottom: 3px solid black;
+    margin-bottom: 50px;
 }
 
 main .wrapper {
@@ -165,9 +178,10 @@ main section ul .card {
     list-style: none;
     text-align: center;
     border-style: solid;
-    border-radius: 40px;
+    border-radius: 3px;
     background-color: black;
     color: white;
+    border: 2px solid darkgray;
     font-size: 20px;
 }
 
