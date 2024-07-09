@@ -8,19 +8,45 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
+
+    <!-- The navigation of the website for the header section -->
+
     <header>
-        <nav>
+        <nav class="mainNavigation">
             <ul>
                 <li class="logo"><a href="index.html">Home</a></li>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="menuAndDelivary.html">Menu and Delivery</a></li>
+                <li><a href="menuAndDelivary.html"><p>Menu</p> <p>and</p> <p>Delivery</p></a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li class ="cart"><a href="shoppingCart.html"><i class="fas fa-shopping-cart "></i> <span style="color: red;">0</span></a></li>
             </ul>
         </nav>
+
+
+        <nav class="hamNavigation">
+            <div class="ham-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li class="logo"><a href="index.html">Home</a></li>
+                <li class ="cart"><a href="shoppingCart.html"><i class="fas fa-shopping-cart "></i> <span style="color: red;">0</span></a></li>
+            </ul>
+        </nav>
+
+        <div class="off-screen-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menuAndDelivary.html"><p>Menu</p> <p>and</p> <p>Delivery</p></a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
     </header>
 
     <main>
+
+        <!-- A slider with the sections of the menu that will transport a use to a desired dish type -->
 
         <section class="wrapper">
             <i id="leftArrow" class="fa-solid fa-circle-chevron-left fa-3x slideButton" style="color: #000000;"></i>
@@ -58,6 +84,8 @@
             <i id="rightArrow" class="fa-solid fa-circle-chevron-right fa-3x slideButton" style="color: #000000;"></i>
         </section>
 
+        <!-- The menu part of the website where people can both see what’s on the menu and add items to the shopping cart  -->
+
         <section class="saladHeader">
             <h2>Salad</h2>
         </section>
@@ -65,11 +93,20 @@
         <section class="saladWrapper">
             <ul class="saladCarousel">
                 <li class="saladCard saladCard1">
+
+                    <!-- An image of the dish -->
+
                     <figure>
                         <img src="ImagesForRestaurant/greekSalad.webp" alt="restaurantWorker" style="width: 400px; height: 400px;"/>
-                    </figure> 
+                    </figure>
+                    
+                    <!-- A dish name and the ingredients  -->
+
                     <h4>Greek Salad</h4>
                     <p>Ingredients:  sliced cucumbers, tomatoes, green bell pepper, red onion, olives, and feta cheese</p> 
+
+                    <!-- The price and shopping cart button to add items to the wish list -->
+
                     <section class="priceAndQuantity">
                         <span class="price">Price: <b>31,99 &#8364;</b></span>
                         <section>
@@ -268,7 +305,12 @@
 
     </main>
 
+     <!-- The footer section of the website  -->
+
     <footer>
+
+        <!-- Opening info for the footer of the website -->
+
         <section class="openingInfo">
             <h4>Opening hours</h4>
              <h5>We are open:</h5> 
@@ -276,7 +318,11 @@
              <h5>We are closed:</h5>
              <p>Sunday</p>
         </section>
-        <section>
+
+        <section class="mediaAndAddress">
+
+            <!-- Links for the social media of the restaurant  -->
+
             <address class="media">
                 <h4>Our media</h4>
                 <ul class="mediaLogo">
@@ -284,11 +330,17 @@
                     <li class="facebook"><a href="#"><i class="fa-brands fa-facebook fa-2x" style="color: #ffffff;"></i></a></li>
                 </ul>
             </address>
+
+            <!-- Restaurant logo and the address of the restaurant in words -->
+
             <address class="restaurantAddress">
                 <h4>RestaurantLogo</h4>
                 <p><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i> <span>Adress: xxxxx</span></p>
             </address>
         </section>
+
+        <!-- Navigation of the website in the footer section  -->
+
         <section class="navigationAndContact">
             <h4>Navigation</h4>
             <nav>
@@ -300,6 +352,8 @@
                 </ul>
             </nav>
 
+            <!-- Phone number and email address of the restaurant -->
+
             <address class="phoneAndMail">
                 <a href="tel:0000000000"><i class="fa-solid fa-phone" style="color: #ffffff;"></i> <span>00000000<br></span></a>
                 <a href="mailto:recipient@example.com"><i class="fa-solid fa-envelope" style="color: #ffffff;"></i> <span>rest@gmail.com</span></a>
@@ -307,5 +361,8 @@
         </section>
 
     </footer>
+
+    <script src="script.js" defer></script>
+
 </body>
 </html>
